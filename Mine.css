@@ -1,0 +1,37 @@
+body{background:#fff;font-size:14px;}
+ul{
+    list-style:none;
+    width:380px;
+    background-color:#fff;
+}
+/*#submenu{display:none;}
+#warning{color:#ff0000;}
+#main{background:#ddd;border:1px solid #888;display:none;position:relative;}*/
+ul:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+#app li{
+    display:inline-block;
+    width:19px;
+    height:19px;
+    float:left;
+}
+#app li span{
+    text-align:center;
+}
+.hidden{background:url(mine.gif) no-repeat 0 0 ;}
+.flag{background:url(mine.gif) no-repeat -19px 0;}
+.check{background:url(mine.gif) no-repeat -38px 0;}
+.bomb{background:url(mine.gif) no-repeat -57px 0;}
+.cbomb{background:url(mine.gif) no-repeat -57px 0 #ff0000;}
+.wrong{background:url(mine.gif) no-repeat -76px 0;}
+.num1{color:#0000ff;}
+.num2{color:#008000;}
+.num3{color:#ff0000;}
+.num4{color:#000080;}
+.num5{color:#800000;}
+.num6{color:#008080;}
+.num7{color:#000000;}
+.num8{color:#808080;}
